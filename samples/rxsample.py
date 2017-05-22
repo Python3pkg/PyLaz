@@ -23,7 +23,7 @@ result = lazurite.rxEnable()
 while cont:
     result = lazurite.available()
     if result > 0:
-        print(lazurite.read())
+        print((lazurite.read()))
     
     time.sleep(0.01)
 
